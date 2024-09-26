@@ -3,12 +3,12 @@
 #### Assignment 2 of Fundamentals of Programming COMP1005/5005
 
 The following command can be used to run the program (Note: dimensions can be enters as \<int\>x\<int\>):
-```
+``` sh # 
 cd src
 python3 simulation.py [human_count] [vampire_count] [total_timesteps] [dimensions] [seed]
 ```
-Or, do several simulations of it through
-`sh sweep.sh [starting_human_count] [end_human_count] [starting_vampire_count] [end_vampire_count] [dimesions]`
+Or, do several simulations of it through<br/>
+`sh # sh sweep.sh [starting_human_count] [end_human_count] [starting_vampire_count] [end_vampire_count] [dimesions]`<br/>
 The above would produce a `for { for {...` foreach human count until the end of human count and a foreach vampire count until the end of that vampire count 
 
 # Contents
